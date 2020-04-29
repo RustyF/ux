@@ -1,4 +1,5 @@
-import React, { forwardRef, Ref } from 'react';
+import React, { Ref } from 'react';
+import { forwardRefWithAs as forwardRef } from '../utils/forward-ref-with-as';
 import { createShouldForwardProp, props } from '@styled-system/should-forward-prop';
 import styled from 'styled-components';
 import css from '@styled-system/css';
